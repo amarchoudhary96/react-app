@@ -1,0 +1,245 @@
+body {
+        box-sizing: border-box;
+}
+
+.navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 5px 15px rgba(210, 209, 209, 0.2);
+        z-index: 2;
+
+
+}
+
+.nav-toggle {
+        background: transparent;
+        border: transparent;
+        font-size: 2rem;
+        color: rgb(211, 68, 68);
+        cursor: pointer;
+        transition: all 0.3s linear;
+}
+
+.nav-toggle:hover {
+        transform: scale(1.2);
+}
+
+@media (min-width:680px) {
+        .nav-toggle {
+                display: none;
+        }
+
+        .sidebar {
+                display: none;
+        }
+}
+
+.sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        transition: all 0.3s linear;
+        transform: translateX(-100%);
+}
+
+.show-sidebar {
+        transform: translateX(0);
+        z-index: 999;
+}
+
+.sidebarclose-btn {
+        position: absolute;
+        font-size: 1.5rem;
+        left: 90%;
+}
+
+
+.navbar-center {
+        display: flex;
+        width: 100%;
+        max-width: 1170px;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+        .navbar-center {
+
+                padding: 0px 5px;
+
+
+        }
+}
+
+.rightContainer nav {
+        display: flex;
+        align-items: center;
+        padding: 0px;
+}
+
+.leftContainer {
+        display: flex;
+        align-content: center;
+        width: 50px;
+
+}
+
+.leftContainer img {
+        width: 100%;
+        object-fit: contain;
+}
+
+nav button {
+        margin: 1px 5px;
+        /* background-color: black; */
+        color: black;
+        padding: 5px;
+        border: none;
+}
+
+nav button:hover {
+        background-color: white;
+        font-weight: 20px;
+        border-radius: 10px;
+}
+
+
+
+
+.cart-btn {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        position: relative;
+        font-size: 23px;
+}
+
+
+
+.cart-icon-css {
+        background-color: red;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        width: 20px;
+        height: 20px;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        left: 17px;
+
+}
+
+
+
+.profile-icon {
+        font-size: 35px;
+        padding-left: 7px;
+        margin-right: 0px;
+}
+
+.profile-icon-login {
+        padding: 5px 12px;
+}
+
+.logout-btn {
+        margin-top: 5px;
+        cursor: pointer;
+
+
+}
+
+.login-button {
+        margin-top: 5px;
+        margin-left: 6px;
+        cursor: pointer;
+
+
+}
+
+
+.product-types {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 50px;
+}
+
+.product-type {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-top: 1.5rem;
+        font-weight: 450;
+
+        /* width: 50px; */
+}
+
+.product-type button:hover {
+        font-weight: 600;
+        display: flex;
+        justify-content: flex-start;
+        transition: all 0.3s linear;
+
+        margin-left: 1rem;
+        width: 90%;
+        background-color: rgb(225, 245, 245);
+}
+
+@media (max-width: 768px) {
+        .product-types {
+                display: none;
+        }
+}
+
+.input {
+        width: 350px;
+}
+
+@media (max-width: 768px) {
+        .input {
+                width: 100%;
+        }
+}
+
+.product-types button {
+        /* background-color: #ffbb00; */
+        padding: 0px 5px;
+        margin: 8px 15px;
+        border: 2px solid white;
+        color: black;
+        border-radius: 5px;
+        font-size: 15px;
+
+}
+
+.product-types button:hover {
+        background-color: white;
+        color: black;
+        font-weight: 600;
+}
+
+.sidebar-links {
+        margin-left: 30px;
+        margin-top: 30px;
+        /* width: 20%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+}
+
+.sidebar-links button:hover {
+        font-weight: 600;
+}

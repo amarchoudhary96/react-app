@@ -1,0 +1,30 @@
+
+
+.footer-container {
+        /* margin-top: 10%; */
+        height: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: black
+}
+.footer-container span {
+        color: #AB7A5F;
+      }
+
+  .footer-container h5 {
+        color: #ffffff;
+        margin: 0.1rem;
+
+        font-weight: 300;
+        font-size: 15px;
+        text-transform: none;
+        line-height: 1.25;
+}
+
+@media (min-width: 776px) {
+        .footer-container {
+                flex-direction: row;
+        }
+}

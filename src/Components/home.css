@@ -1,0 +1,35 @@
+
+  .home-products{
+          padding-top: 50px;
+          margin:0 auto;
+       
+  }
+  .product-containers{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        margin: 5px;
+        
+        justify-content: space-evenly;
+        padding: 10px;
+        align-items: center;
+        height: 300px;
+}
+.product-containers img {
+        /* height: 86px; */
+        width: 120px;
+        height: 148px;
+        object-fit: contain;
+        margin-right: 15px;
+       
+        
+}
+
+.producttitles{
+        font-size: 15px;
+        font-weight: 500;
+        background-color: white;
+        border: none;
+}
+ 
+  

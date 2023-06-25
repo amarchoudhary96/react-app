@@ -1,0 +1,52 @@
+.mini-product-container {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        margin: 5px;
+        width: 250px;
+        border: 1px solid rgb(245, 245, 245);
+        box-shadow: 0px 0px 5px 0px ;
+        /* justify-content: space-evenly; */
+        padding: 5px;
+        align-items: center;
+        height: 400px;}
+.mini-img-container{
+        
+       display: flex;
+       justify-content: center;
+}
+.mini-product-container img {
+       width: 90px;
+       height: 110px;
+       object-fit: contain;
+       
+}
+.mini-project-title{
+        font-size: 20px;
+        font-weight: 700;
+}
+.mini-price-container{
+        display: flex;
+        
+        flex-direction: column;
+        gap: 0px;
+}
+.mrp,.salesprice,.yousave{
+        display: flex;
+        margin-bottom: 5px;
+        line-height: 0px;
+        padding: 5px;
+}
+.showmore-btn{
+        background-color: white;
+color: #ffbb00;
+border: 2px solid #ffbb00;
+padding: 5px;
+border-radius: 5px;
+/* margin-right: 10px; */
+margin-top: 5px;
+}
+.showmore-btn:hover{
+        background-color: black;
+   color: #ffbb00;
+}

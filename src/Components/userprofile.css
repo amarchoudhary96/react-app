@@ -1,0 +1,34 @@
+.userprofile-outercontainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+}
+
+.user-profile {
+        background-color: #ffbb08;
+        padding: 10px;
+        border-radius: 10px;
+        width: 500px;
+
+}
+
+.user-profile p {
+        font-weight: 30px;
+        color: white;
+        font-weight: 700;
+
+        border-bottom: 3px solid white;
+}
+
+.data-row {
+        display: flex;
+        flex-direction: row;
+        color: white;
+}
+.data-row span {
+        width: 80%;
+        padding: 10px;
+        border: 2px solid white;
+        font-size: 18px;
+}
